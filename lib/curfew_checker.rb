@@ -1,9 +1,22 @@
+#t=time
 def simple_curfew_checker(time)
-  # code goes here
+if time=11 
+  puts "You're in trouble! Better get home quick!"
+ elsif time>11
+  puts "You're in trouble! Better get home quick!"
+elsif time<11
+  puts "You are not in trouble!"
+  end
 end
 
 def curfew_checker(time)
-  # code goes here
+  if time=11 
+  puts "You're in trouble! Better get home quick!"
+ elsif time>11
+  puts "You're in trouble! Better get home quick!"
+elsif time<11
+  puts "Keep having fun!"
+  end
 end
 
 def complex_curfew_checker(time)
